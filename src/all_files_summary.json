@@ -1,0 +1,21 @@
+{
+  "backend/main.mo": "Motoko actor defining a contact form backend with functions to submit contact messages (name, email, message), retrieve all messages, and query static contact information (email, phone, address).",
+  "feature_evidence.json": "Empty feature evidence report with no features documented.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend components describing the single-page SCC Classes website structure with header, hero, about, courses, contact sections, and styling configuration.",
+  "frontend/index.css": "Tailwind CSS configuration with custom OKLCH color variables for light and dark modes, defining a neutral grayscale palette with warm orange and teal accents.",
+  "frontend/index.html": "HTML entry point that loads the React application from main.tsx into a root div.",
+  "frontend/src/App.tsx": "Root React component that assembles the full page layout with Header, Hero, AboutSection, CoursesSection, ContactSection, and Footer components.",
+  "frontend/src/components/AboutSection.tsx": "About section component displaying SCC Classes' mission statement and four feature cards (Expert Instructors, Small Class Sizes, Practical Focus, Career Growth) with icons and a teaching approach description.",
+  "frontend/src/components/ContactSection.tsx": "Contact section with a form to submit inquiries (name, email, message) to the backend and a card displaying contact information (email, phone, address) fetched from the backend API.",
+  "frontend/src/components/CoursesSection.tsx": "Courses section displaying six training programs (Programming, Web Dev, Database, Graphic Design, MS Office, Cybersecurity) with icons, descriptions, duration, level badges, and topic lists.",
+  "frontend/src/components/Footer.tsx": "Footer component showing copyright notice and attribution link to caffeine.ai with UTM tracking parameters.",
+  "frontend/src/components/Header.tsx": "Sticky navigation header with SCC Classes logo and smooth-scrolling buttons to navigate to Home, About, Courses, and Contact sections.",
+  "frontend/src/components/Hero.tsx": "Hero section featuring a headline, value proposition text, classroom image, and call-to-action buttons that scroll to the contact form and courses section.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that manages the backend actor instance using React Query, creating authenticated or anonymous actors based on Internet Identity state and invalidating dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides Internet Identity authentication context and hooks for ICP, managing login/logout state, identity persistence, and delegation validation with configurable AuthClient options.",
+  "frontend/src/hooks/useQueries.ts": "Defines React Query hooks for fetching contact info and submitting contact forms through the backend actor, with automatic cache invalidation on mutations.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables defining a comprehensive design system including light/dark themes, color palettes, spacing, and sidebar styling using OKLCH color space.",
+  "frontend/src/main.tsx": "Application entry point that sets up the React root with QueryClientProvider for data fetching and InternetIdentityProvider for authentication context.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the default theme with custom colors mapped to CSS variables, container settings, animations, and plugins for typography, container queries, and animations.",
+  "project_state.json": "Project metadata tracking implemented features for SCC Classes website (homepage, courses, contact, about sections) and pending feature requests to update contact information in the backend."
+}

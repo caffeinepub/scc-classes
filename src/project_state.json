@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Website for SCC Classes computer classes",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-homepage-that-introduces-scc-classes-as-a-computer-training-institution-including-a-hero-section-with-a-welcoming-headline-and-brief-description-of-the-services-offered",
+      "title": "Create a homepage that introduces SCC Classes as a computer training institution, including a hero section with a welcoming headline and brief description of the services offered",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-courses-section-that-lists-available-computer-training-courses-with-descriptions-and-key-details",
+      "title": "Create a courses section that lists available computer training courses with descriptions and key details",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-section-with-contact-information-for-scc-classes-including-a-contact-form-for-inquiries",
+      "title": "Create a contact section with contact information for SCC Classes including a contact form for inquiries",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-section-that-provides-information-about-scc-classes-its-mission-and-teaching-approach",
+      "title": "Create an about section that provides information about SCC Classes, its mission, and teaching approach",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-professional-modern-visual-design-theme-with-a-cohesive-color-palette-typography-and-layout-style-appropriate-for-an-educational-technology-institution",
+      "title": "Apply a professional, modern visual design theme with a cohesive color palette, typography, and layout style appropriate for an educational technology institution",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create website for SCC Classes computer classes",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Update the backend getContactInfo function to return the new mobile number '+91 788 796 3508', email 'sccclasses@gmail.com', and address 'Old Jalna In Front of Devine English School (Dukhi Nagar)'",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Ensure the ContactSection component displays the updated contact information from the backend",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "SCC Classes",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

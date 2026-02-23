@@ -1,0 +1,12 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the complete single-page layout with header, hero, about, courses, contact sections, and footer.",
+  "frontend/src/components/Header.tsx": "Sticky navigation header with SCC Classes logo and smooth-scrolling navigation links to page sections.",
+  "frontend/src/components/Hero.tsx": "Hero section featuring the classroom image, compelling headline, value proposition, and call-to-action buttons.",
+  "frontend/src/components/AboutSection.tsx": "About section showcasing SCC Classes' mission, key features with icons, and teaching approach in a card-based layout.",
+  "frontend/src/components/CoursesSection.tsx": "Courses section displaying six computer training courses with icons, descriptions, duration, level badges, and key topics.",
+  "frontend/src/components/ContactSection.tsx": "Contact section with contact information retrieved from backend and a functional form that submits inquiries via backend API with success feedback.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright information and attribution link to caffeine.ai with UTM tracking.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching contact information and submitting contact form data to the backend.",
+  "frontend/src/index.css": "Global styles with warm orange and teal OKLCH color system for both light and dark modes, avoiding blue/purple tones.",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom color tokens, Inter font family, and extended design system for professional educational aesthetic."
+}
